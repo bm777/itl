@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Free Education Template</title>
+    <title>ITL</title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="{{ url_for('static', filename='assets/css/bootstrap.css') }}" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
@@ -27,14 +27,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/img/logo180-50.png" alt=""  /></a>
+                <a class="navbar-brand" href="#"><img class="logo-custom" src="{{ url_for('static', filename='assets/img/logo180-50.png') }}" alt=""  /></a>
             </div>
             <div class="navbar-collapse collapse move-me">
                 <ul class="nav navbar-nav navbar-right">
                     <li ><a href="#home">HOME</a></li>
                      <li><a href="#features-sec">FEATURES</a></li>
-                    <li><a href="#faculty-sec">FACULTY</a></li>
-                     <li><a href="#course-sec">COURSES</a></li>
+                    <li><a href="#faculty-sec">FALCULTES</a></li>
+                     <li><a href="#course-sec">COURS</a></li>
                      <li><a href="#contact-sec">CONTACT</a></li>
                 </ul>
             </div>
@@ -53,42 +53,52 @@
                     <ul class="slides move-me">
                         <!-- Slider 01 -->
                         <li>
-                              <h3>Delivering Quality Education</h3>
-                           <h1>THE UNIQUE METHOD</h1>
+                              <h3>Le niveau de tout un chacun dépens de la qualité de formation</h3>
+                           <h1>1. COURS UNIQUE</h1>
                             <a  href="#features-sec" class="btn btn-info btn-lg" >
-                                GET AWESOME 
+                                OBTENIR UN COURS 
                             </a>
                              <a  href="#features-sec" class="btn btn-success btn-lg" >
-                                FEATURE LIST
+                                LISTE DES FEATURES
                             </a>
                         </li>
                         <!-- End Slider 01 -->
                         
                         <!-- Slider 02 -->
                         <li>
-                            <h3>Delivering Quality Education</h3>
-                           <h1>UNMATCHED APPROACH</h1>
+                            <h3>La méthodologie requiert une base solide</h3>
+                           <h1>2. APPROCHE ET BASE SOLIDE</h1>
                              <a  href="#features-sec" class="btn btn-primary btn-lg" >
-                               GET AWESOME 
+                               OBTENIR UN COURS 
                             </a>
                              <a  href="#features-sec" class="btn btn-danger btn-lg" >
-                                FEATURE LIST
+                                LISTE DES FEATURES
                             </a>
                         </li>
                         <!-- End Slider 02 -->
                         
                         <!-- Slider 03 -->
                         <li>
-                            <h3>Delivering Quality Education</h3>
-                           <h1>AWESOME FACULTY PANEL</h1>
+                            <h3>L'apprentisage est d'abord théorique puis pratique</h3>
+                           <h1>3. ENSEIGNANTS QUALIFIES</h1>
                              <a  href="#features-sec" class="btn btn-default btn-lg" >
-                                GET AWESOME 
+                                OBTENIR UN COURS
                             </a>
                              <a  href="#features-sec" class="btn btn-info btn-lg" >
-                                FEATURE LIST
+                                LISTE DES FEATURES
                             </a>
                         </li>
                         <!-- End Slider 03 -->
+                        <li>
+                            <h3>Forum et espace en ligne pour le soutien</h3>
+                           <h1>4. GRANDE COMMUNAUTE</h1>
+                             <a  href="#features-sec" class="btn btn-default btn-lg" >
+                                OBTENIR UN COURS 
+                            </a>
+                             <a  href="#features-sec" class="btn btn-info btn-lg" >
+                                LISTE DES FEATURES
+                            </a>
+                        </li>
                     </ul>
                 </div>
                    
@@ -109,7 +119,7 @@
            
                <div class="col-lg-12  col-md-12 col-sm-12">
                
-        <h2 data-scroll-reveal="enter from the bottom after 0.1s" ><i class="fa fa-circle-o-notch"></i> WELCOME TO THE EDU-CENTER <i class="fa fa-circle-o-notch"></i> </h2>
+        <h2 data-scroll-reveal="enter from the bottom after 0.1s" ><i class="fa fa-circle-o-notch"></i> BIENVENUE AU CENTRE INNOTECHLAB <i class="fa fa-circle-o-notch"></i> </h2>
                    </div>
                </div>
              </div>
@@ -119,12 +129,10 @@
          <div id="features-sec" class="container set-pad" >
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.2s"  class="header-line">FEATURE LIST </h1>
+                     <h1 data-scroll-reveal="enter from the bottom after 0.2s"  class="header-line">LISTE DES FEATURES</h1>
                      <p data-scroll-reveal="enter from the bottom after 0.3s" >
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
-                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
+                      Une des activités clés est de créer une place, où les innovateurs, entrepreneurs et investisseurs peuvent co-créer pour construire une chose unique.
+
                          </p>
                  </div>
 
@@ -138,43 +146,40 @@
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
                      <div class="about-div">
                      <i class="fa fa-paper-plane-o fa-4x icon-round-border" ></i>
-                   <h3 >Quality Education</h3>
+                   <h3 >Qualité de l'éducation</h3>
                  <hr />
                        <hr />
                    <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
+                       Une formation est bonne lorsqu'elle passe par une bonne base solide d'éducation. Les formateurs venue des... <!-- quatre coins du monde -->
                        
                    </p>
-               <a href="#" class="btn btn-info btn-set"  >ASK THE EXPERT</a>
+               <a href="#" class="btn btn-info btn-set"  >DEMANDER A UN EXPERT</a>
                 </div>
                    </div>
                    <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
                      <div class="about-div">
                      <i class="fa fa-bolt fa-4x icon-round-border" ></i>
-                   <h3 >SYSTEMATIC APPROACH</h3>
+                   <h3 >SYSTEME D'APPROCHE DE FORMATION</h3>
                  <hr />
                        <hr />
                    <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
+                      La méthode puissante et toujours en cours d'utilisation par des grandes institution reste la théorie qui...<!--  soutient la pratique. -->
                        
                    </p>
-               <a href="#" class="btn btn-info btn-set"  >ASK THE EXPERT</a>
+               <a href="#" class="btn btn-info btn-set"  >DEMANDER A UN EXPERT</a>
                 </div>
                    </div>
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
                      <div class="about-div">
                      <i class="fa fa-magic fa-4x icon-round-border" ></i>
-                   <h3 >ONE TO ONE STUDY</h3>
+                   <h3 >PROJET DE BOUT EN BOUT</h3>
                  <hr />
                        <hr />
                    <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
+                       Tout projet est néé du spirituel. Il faut le penser avant de l'implémenter. Puis le réaliser en utilisant les... <!-- outils technologiques de pointe -->
                        
                    </p>
-               <a href="#" class="btn btn-info btn-set"  >ASK THE EXPERT</a>
+               <a href="#" class="btn btn-info btn-set"  >DEMANDER A UN EXPERT</a>
                 </div>
                    </div>
                  
@@ -186,12 +191,9 @@
     <div class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR FACULTY </h1>
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">NOS FACULTES </h1>
                      <p data-scroll-reveal="enter from the bottom after 0.3s">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
-                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
+                      Notre programme de formation est repartie sur plusieurs thème sous-jacent l'entreprenariat. C'est-à-dire de la façon de concevoir jusqu'a la conception en utilisant les outils de pointes de la 3D, IoT, la digitalisation et l'Intelligence artificielle.
                          </p>
                  </div>
 
@@ -203,39 +205,36 @@
                
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
                      <div class="faculty-div">
-                     <img src="assets/img/faculty/1.jpg"  class="img-rounded" />
-                   <h3 >ROXI CHI LUENA </h3>
+                     <img src="{{ url_for('static', filename='assets/img/faculty/1.jpg') }}"  class="img-rounded" />
+                   <h3 >Pr Dr Ing SAMA MBANG </h3>
                  <hr />
-                         <h4>Desigining <br /> Department</h4>
+                         <h4>Département <br />de Management </h4>
                    <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
+                       Expert de la simulation 3D et en gestion de projet.
                        
                    </p>
                 </div>
                    </div>
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
                      <div class="faculty-div">
-                     <img src="assets/img/faculty/2.jpg"  class="img-rounded" />
-                   <h3 >JANE DEO ALEX</h3>
+                     <img src="{{ url_for('static', filename='assets/img/faculty/2.png') }}"  class="img-rounded" />
+                   <h3 >Thierry KAMNANG</h3>
                  <hr />
-                         <h4>Enginering <br /> Department</h4>
+                         <h4>Département <br /> d'ingénieurie mechanique</h4>
                    <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
+                       Expert de fabrication des outils méchaniques industrielles.
                        
                    </p>
                 </div>
                    </div>
                <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
                      <div class="faculty-div">
-                     <img src="assets/img/faculty/3.jpg" class="img-rounded" />
-                   <h3 >RUBY DECORSA</h3>
+                     <img src="{{ url_for('static', filename='assets/img/faculty/3.jpg') }}" class="img-rounded" />
+                   <h3 >Nestor MBOGNI</h3>
                  <hr />
-                         <h4>Management <br /> Department</h4>
+                         <h4>Département <br /> électronique</h4>
                    <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
+                       Expert de conception des circuits électronques. Planning des plage de courant et tension utilisé dans un circuit.
                        
                    </p>
                 </div>
@@ -263,7 +262,7 @@
 
            <div class="row set-row-pad" >
            <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
-                 <img src="assets/img/building.jpg" class="img-thumbnail" />
+                 <img src="{{ url_for('static', filename='assets/img/building.jpg') }}" class="img-thumbnail" />
            </div>
                <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
                    <div class="panel-group" id="accordion">
@@ -359,7 +358,7 @@
                             <textarea name="message" required="required" class="form-control" style="min-height: 150px;" placeholder="Message"></textarea>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-info btn-block btn-lg">SUBMIT REQUEST</button>
+                            <button type="submit" class="btn btn-info btn-block btn-lg">SOUMETTRE UNE REQUETE</button>
                         </div>
 
                     </form>
@@ -378,25 +377,25 @@
              <div class="row set-row-pad"  >
     <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1 " data-scroll-reveal="enter from the bottom after 0.4s">
 
-                    <h2 ><strong>Our Location </strong></h2>
+                    <h2 ><strong>Nos locaux </strong></h2>
         <hr />
-                    <div ">
-                        <h4>234/80 -UFG , New Street,</h4>
-                        <h4>Switzerland.</h4>
-                        <h4><strong>Call:</strong>  + 67-098-907-1269 / 70 / 71 </h4>
-                        <h4><strong>Email: </strong>info@yourdomain.com</h4>
+                    <div >
+                        <h4>Avant monté mvan , Brasserie,</h4>
+                        <h4>Yaoundé, Cameroun</h4>
+                        <h4><strong>Call:</strong>  +237 690 28 70 30 / +49 176 105 546 72</h4>
+                        <h4><strong>Email: </strong>info@dta-alliance.com</h4>
                     </div>
 
 
                 </div>
                  <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1" data-scroll-reveal="enter from the bottom after 0.4s">
 
-                    <h2 ><strong>Social Conectivity </strong></h2>
+                    <h2 ><strong>Liens sociaux </strong></h2>
         <hr />
                     <div >
-                        <a href="#">  <img src="assets/img/Social/facebook.png" alt="" /> </a>
-                     <a href="#"> <img src="assets/img/Social/google-plus.png" alt="" /></a>
-                     <a href="#"> <img src="assets/img/Social/twitter.png" alt="" /></a>
+                        <a href="#">  <img src="{{ url_for('static', filename='assets/img/Social/facebook.png') }}" alt="" /> </a>
+                     <a href="#"> <img src="{{ url_for('static', filename='assets/img/Social/google-plus.png') }}" alt="" /></a>
+                     <a href="#"> <img src="{{ url_for('static', filename='assets/img/Social/twitter.png') }}" alt="" /></a>
                     </div>
                     </div>
 
@@ -405,7 +404,7 @@
                  </div>
      <!-- CONTACT SECTION END-->
     <div id="footer">
-          &copy 2014 yourdomain.com | All Rights Reserved |  <a href="http://binarytheme.com" style="color: #fff" target="_blank">Design by : binarytheme.com</a>
+          &copy 2020 dta-alliance.com | Tous droit reservés |  <a href="github.com/bm777" style="color: #fff" target="_blank">Fait by : bm7</a>
     </div>
      <!-- FOOTER SECTION END-->
    
