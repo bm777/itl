@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Cours {{ name }}</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="{{ url_for('static', filename='assets/css/bootstrap.css') }}" rel="stylesheet" />
+    <!-- FONT AWESOME CSS -->
+<link href="{{ url_for('static', filename='assets/css/font-awesome.min.css') }}" rel="stylesheet" />
+     <!-- FLEXSLIDER CSS -->
+<link href="{{ url_for('static', filename='assets/css/flexslider.css') }}" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="{{ url_for('static', filename='assets/css/style.css') }}" rel="stylesheet" />    
+  <!-- Google	Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+</head>
+<body >
+   
+ <div class="navbar navbar-inverse navbar-fixed-top " id="menu">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img class="logo-custom" src="{{ url_for('static', filename='assets/img/itl.svg') }}" alt=""  /></a>
+            </div>
+            <div class="navbar-collapse collapse move-me">
+                <ul class="nav navbar-nav navbar-right">
+                    <li ><a href="#">HOME</a></li>
+                     <!-- <li><a href="#features-sec">FEATURES</a></li> -->
+                    <li><a href="#faculty-sec">PROFESSEURS</a></li>
+                     <li><a href="#course-sec">COURS</a></li>
+                     <li><a href="#contact-sec">CONTACT</a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+  
+
+    <!-- FACULTY SECTION END-->
+      <div id="course-sec" class="container set-pad">
+             <div class="row text-center">
+                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">NOS COURS </h1>
+                     <p data-scroll-reveal="enter from the bottom after 0.3s">
+                      Les cours dispensé à innotechlab sont repartie en trois grand axes. premièrement, la théorie des chaque domaine, ensuite conception proprement dite (pratique et les tests orienté du monde réel) et enfin comment attaquer le marché avec son produit grace à notre cursus qui s'arime aux institutions internationales.
+                         </p>
+                 </div>
+
+             </div>
+             <!--/.HEADER LINE END-->
+
+
+           <div class="row set-row-pad" >
+           <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
+                 <img src="{{ url_for('static', filename='assets/img/building.jpg') }}" class="img-thumbnail" />
+           </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+                   <div class="panel-group" id="accordion">
+                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.5s">
+                            <div class="panel-heading" >
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="collapsed">
+                                  <strong>   6+</strong> COURS THEORIQUES 
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse" style="height: 0px;">
+                                <div class="panel-body">
+                                    <p>
+                                      <a href="">1. Concept de base de modélisation 3D </a> <br>
+                                      <a href="">2. Mathématiques théoriques</a>  <br>
+                                      <a href="">3. Electronique</a>  <br>
+                                      <a href="">4. Programmation Arduino/C</a> <br>
+                                      <a href="">5. Programmation Python/C++</a>  <br>
+                                      <a href="">6. Autres</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed">
+                                      <strong>   6+</strong> COURS D'INGENIEURIE
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse" style="height: 0px;">
+                                <div class="panel-body">
+                                    <p>
+                                      <a href="">1. Modélisation et Simmulation 3D</a>  <br>
+                                      <a href="">2. Mathémtiques pratiques</a>  <br>
+                                      <a href="">3. Electronique pratique (conception des circuit)</a>  <br>
+                                      <a href="">4. Introduction au R.O.S</a> <br>
+                                      <a href="">5. Programmation Web</a> <br>
+                                      <a href="">6. Autres</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed">
+                                        <strong>   5+</strong> COURS DE MANAGEMENT ET MARKETING 
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse"  style="height: 0px;">
+                                <div class="panel-body">
+                                    <p>
+                                      <a href="">1. Gestion du temps</a>  <br>
+                                      <a href="">2. Design thinking</a> <br>
+                                      <a href="">3. Elaboration des business plan</a> <br>
+                                      <a href="">4. Management industriel</a> <br>
+                                      <a href="">5. Marketing</a> <br>
+                                      <a href="">6. Autres</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="alert alert-info" data-scroll-reveal="enter from the bottom after 1.1s" >
+                       <span style="font-size:40px;">
+                          <strong> 4 + </strong> 
+                           <hr />
+                           Centres
+                       </span>
+                   </div>
+           </div>
+             
+                 
+                 
+               </div>
+             </div>
+
+
+      <!-- FEATURES SECTION END-->
+    <div id="faculty-sec" >
+    <div class="container set-pad">
+             <div class="row text-center">
+                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">PROFESSEURS EN CHARGE DES COURS</h1>
+                     <p data-scroll-reveal="enter from the bottom after 0.3s">
+                      <!-- Notre programme de formation est repartie sur plusieurs thème sous-jacent l'entreprenariat. C'est-à-dire de la façon de concevoir jusqu'a la conception en utilisant les outils de pointes de la 3D, IoT, la digitalisation et l'Intelligence artificielle. -->
+                         </p>
+                 </div>
+
+             </div>
+             <!--HEADER LINE END-->
+
+           <div class="row" style="padding-left: 0%;">
+           
+               
+                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
+                     <div class="faculty-div">
+                     <img style="width: 200px;height: 200px" src="{{ url_for('static', filename='assets/img/faculty/thierry.jpg') }}"  class="img-rounded" />
+                   <h3 >Thierry KAMNANG</h3>
+                    <hr />
+                         <h4>Département <br /> d'ingénieurie mechanique</h4>
+                      <p >
+                       Expert de fabrication des outils méchaniques industrielles.
+                       
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
+                     <div class="faculty-div">
+                         <img  style="width: 200px; height: 200px" src="{{ url_for('static', filename='assets/img/faculty/nestor.png') }}" class="img-rounded" />
+                        <h3 >Nestor MBOGNI</h3>
+                        <hr />
+                             <h4>Département <br /> électronique</h4>
+                        <p >
+                           Expert en électronique et en électricité orienté industrie.
+                           
+                       </p>
+                    </div>
+                   </div>
+                 
+               </div>
+             </div>
+        </div>
+      <!-- COURSES SECTION END-->
+    <div id="contact-sec"   >
+           <div class="overlay">
+ <div class="container set-pad">
+      <div class="row text-center">
+                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line" >CONTACTEZ NOUS </h1>
+                     <p data-scroll-reveal="enter from the bottom after 0.3s">
+                     Laissez nous un message, nous vous répondrons dans l'heure.
+                         </p>
+                 </div>
+
+             </div>
+             <!--/.HEADER LINE END-->
+           <div class="row set-row-pad"  data-scroll-reveal="enter from the bottom after 0.5s" >
+           
+               
+                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control "  required="required" placeholder="Votre Nom" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control " required="required"  placeholder="Votre Email" />
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" required="required" class="form-control" style="min-height: 150px;" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-info btn-block btn-lg">SOUMETTRE UNE REQUETE</button>
+                        </div>
+
+                    </form>
+                </div>
+
+                   
+     
+              
+              
+                
+               </div>
+                </div>
+          </div> 
+       </div>
+     <div class="container">
+             <div class="row set-row-pad"  >
+    <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1 " data-scroll-reveal="enter from the bottom after 0.4s">
+
+                    <h2 ><strong>Nos locaux </strong></h2>
+        <hr />
+                    <div >
+                        <h4>Avant monté mvan , Brasserie,</h4>
+                        <h4>Yaoundé, Cameroun</h4>
+                        <h4><strong>Call:</strong>  +237 690 28 70 30 / +49 176 105 546 72</h4>
+                        <h4><strong>Email: </strong>info@dta-alliance.com</h4>
+                    </div>
+
+
+                </div>
+                 <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1" data-scroll-reveal="enter from the bottom after 0.4s">
+
+                    <h2 ><strong>Liens sociaux </strong></h2>
+        <hr />
+                    <div >
+                        <a href="https://www.facebook.com/Digital-Transformation-2917973734895299/">  <img src="{{ url_for('static', filename='assets/img/Social/facebook.png') }}" alt="" /> </a>
+                     <a href=""> <img src="{{ url_for('static', filename='assets/img/Social/google-plus.png') }}" alt="" /></a>
+                     <a href="https://twitter.com/digit_trans"> <img src="{{ url_for('static', filename='assets/img/Social/twitter.png') }}" alt="" /></a>
+                    </div>
+                    </div>
+
+
+                </div>
+                 </div>
+     <!-- CONTACT SECTION END-->
+    <div id="footer">
+          &copy 2020 dta-alliance.com | Tous droit reservés |  <a href="github.com/bm777" style="color: #fff" target="_blank">Fait by : bm7</a>
+    </div>
+     <!-- FOOTER SECTION END-->
+   
+    <!--  Jquery Core Script -->
+    <script src="{{ url_for('static', filename='assets/js/jquery-1.10.2.js') }}"></script>
+    <!--  Core Bootstrap Script -->
+    <script src="{{ url_for('static', filename='assets/js/bootstrap.js') }}"></script>
+    <!--  Flexslider Scripts --> 
+         <script src="{{ url_for('static', filename='assets/js/jquery.flexslider.js') }}"></script>
+     <!--  Scrolling Reveal Script -->
+    <script src="{{ url_for('static', filename='assets/js/scrollReveal.js') }}"></script>
+    <!--  Scroll Scripts --> 
+    <script src="{{ url_for('static', filename='assets/js/jquery.easing.min.js') }}"></script>
+    <!--  Custom Scripts --> 
+         <script src="{{ url_for('static', filename='assets/js/custom.js') }}"></script>
+</body>
+</html>
