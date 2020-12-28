@@ -1,0 +1,18 @@
+<svg width="250" height="150" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="252" height="152" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_5" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text fill="#005dff" stroke-width="0" x="172.81652" y="145.16477" id="svg_1" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(2.396258279390608,0,0,2.444444417953491,-406.18689861647425,-286.6319391876459) " stroke="#000">Inno</text>
+  <text fill="#ff0000" stroke-width="0" x="238.8071" y="148.07016" id="svg_2" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(1.8510123491287231,0,0,1.814814805984497,-301.68387776613235,-220.35647909343243) " stroke="#000">Tech</text>
+  <text fill="#000000" stroke-width="0" x="267.07128" y="352.39823" id="svg_3" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(6.007296169775008,0,0,8.301761292250717,-1493.322460735957,-2780.9759965254216) " stroke="#000" font-weight="bold">L</text>
+  <text fill="#000000" stroke-width="0" x="113.12874" y="339.51615" id="svg_4" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(2.5425159698175563,0,0,3.2962963581085205,-140.11059964731362,-1002.1898417919874) " stroke="#000">AB</text>
+ </g>
+</svg>

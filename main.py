@@ -2,6 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+
 # home page for 127.0.0.1:5000
 # 127.0.0.1 Local ip address
 # 5000 is default port adress
@@ -18,3 +19,7 @@ def cours(name=None):
 
 	tmp = name if name is not None else "None"
 	return render_template("cours.html", name=tmp)
+
+
+if __name__ == '__main__':
+	app.run(debug=True, host='0.0.0.0', port="5032")
